@@ -35,8 +35,8 @@ def filler(dict_for_check: dict, elem: dict|list):
             for i in elem['values']:
                 filler(dict_for_check, i)
 
-# values_path, tests_path, report_path = sys.argv[1:]
-values_path, tests_path, report_path = 'values.json', 'tests.json', 'report.json'
+values_path, tests_path, report_path = sys.argv[1:]
+# values_path, tests_path, report_path = 'values.json', 'tests.json', 'report.json'
 
 values = reader(values_path)
 tests = reader(tests_path)
