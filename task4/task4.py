@@ -7,9 +7,9 @@
 nums = [1, 2, 3]
 Решение: [1, 2, 3] => [2, 2, 3] => [2, 2, 2].
 Минимальное количество ходов: 2."""
+import sys
 
-
-path = input()
+path = sys.argv[1]
 
 with open(path, "r") as f1:
     nums = list(map(int, f1.readlines()))

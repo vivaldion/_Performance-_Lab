@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd2123a5-9deb-422b-8515-58921e7f2867" name="Changes" comment="" />
+    <list default="true" id="dd2123a5-9deb-422b-8515-58921e7f2867" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task3/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/task3/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/task4/task4.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,9 +177,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.task3" />
+        <item itemvalue="Python.task1" />
         <item itemvalue="Python.task3_1" />
         <item itemvalue="Python.3" />
-        <item itemvalue="Python.task1" />
         <item itemvalue="Python.task4" />
       </list>
     </recent_temporary>
