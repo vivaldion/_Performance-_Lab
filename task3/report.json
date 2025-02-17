@@ -18,7 +18,7 @@
         {
           "id": 345,
           "title": "Maxperf",
-          "value": "",
+          "value": "passed",
           "values": [
             {
               "id": 230,
@@ -27,12 +27,12 @@
                 {
                   "id": 234,
                   "title": "200",
-                  "value": ""
+                  "value": "passed"
                 },
                 {
                   "id": 653,
                   "title": "300",
-                  "value": ""
+                  "value": "passed"
                 }
               ]
             }
@@ -41,7 +41,7 @@
         {
           "id": 110,
           "title": "Stability test",
-          "value": "",
+          "value": "failed",
           "values": [
             {
               "id": 261,
@@ -50,12 +50,12 @@
                 {
                   "id": 238,
                   "title": "160",
-                  "value": ""
+                  "value": "passed"
                 },
                 {
                   "id": 690,
                   "title": "240",
-                  "value": ""
+                  "value": "failed"
                 }
               ]
             }
@@ -71,12 +71,12 @@
         {
           "id": 5321,
           "title": "Confidentiality",
-          "value": ""
+          "value": "passed"
         },
         {
           "id": 5322,
           "title": "Integrity",
-          "value": ""
+          "value": "failed"
         }
       ]
     }

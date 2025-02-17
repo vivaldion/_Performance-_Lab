@@ -12,7 +12,7 @@ value для структуры tests.json на основании values.json.
 import json
 
 
-values_path, tests_path, report_path = input(), input(), input()
+# values_path, tests_path, report_path = input(), input(), input()
 
 def reader(file : str) -> dict:
     with open(file, "r") as file:
@@ -34,10 +34,10 @@ def filler(dict_for_check: dict, elem: dict|list):
             elem['value'] = dict_for_check[elem['id']]
         if 'values' in elem:
             for i in elem['values']:
-                filler(values, i)
+                filler(dict_for_check, i)
 
 
-# values_path, tests_path, report_path = 'values.json', 'tests.json', 'report.json'
+values_path, tests_path, report_path = 'values.json', 'tests.json', 'report.json'
 values = reader(values_path)
 tests = reader(tests_path)
 dict_for_check = for_check(values)
