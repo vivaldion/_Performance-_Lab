@@ -10,9 +10,8 @@ value для структуры tests.json на основании values.json.
 Структура report.json такая же, как у tests.json, только заполнены поля “value”."""
 
 import json
+import sys
 
-
-# values_path, tests_path, report_path = input(), input(), input()
 
 def reader(file : str) -> dict:
     with open(file, "r") as file:
@@ -36,8 +35,9 @@ def filler(dict_for_check: dict, elem: dict|list):
             for i in elem['values']:
                 filler(dict_for_check, i)
 
+values_path, tests_path, report_path = sys.argv[1:]
+# values_path, tests_path, report_path = 'values.json', 'tests.json', 'report.json'
 
-values_path, tests_path, report_path = 'values.json', 'tests.json', 'report.json'
 values = reader(values_path)
 tests = reader(tests_path)
 dict_for_check = for_check(values)

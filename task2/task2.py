@@ -30,10 +30,10 @@
 
 Вывод программы в консоль."""
 
-
+import sys
 from math import sqrt
 
-path_circle, path_points = input(), input()
+path_circle, path_points = sys.argv[1:]
 
 with open(path_circle, 'r') as f1:
     x_c, y_c = map(float, f1.readline().split())

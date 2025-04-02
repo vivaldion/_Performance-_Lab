@@ -25,17 +25,21 @@ n = 5, m = 4
 Например, для последнего примера на вход подаются аргументы: 5 4, ожидаемый
 вывод в консоль: 14253"""
 
-maxim, step = map(int, input().split())
+
+import sys
+
 
 def path(maxim, step):
      res = ""
      value = 1
      while True:
           res += str(value)
-          value = 1 + (value+ step -2) % maxim
+          value = 1 + (value + step -2) % maxim
           if value == 1:
                break
      print(res)
+
+maxim, step = map(int, sys.argv[1:])
 
 path(maxim, step)
 
